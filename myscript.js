@@ -28,6 +28,5 @@ for (var i = 1; i <= 100; i++) {
 
 }
 
-    // stampare allNumbers che contiene sia num che fizz e buzz al posto dei multipli di 3 e 5
-
-    console.log(allNumbers.join(" - "));
+// stampare allNumbers che contiene sia num che fizz e buzz al posto dei multipli di 3 e 5
+console.log(allNumbers.join(" - "));
