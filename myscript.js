@@ -1,7 +1,6 @@
 // array che contiene i valori
 var allNumbers = [];
 
-var initialNumber = 1
 
 // ciclo che stampa i numeri fino a 100
 for (var i = 1; i <= 100; i++) {
@@ -14,7 +13,7 @@ for (var i = 1; i <= 100; i++) {
 
 
     if (i % 3 === 0 && i % 5 === 0) {
-        numeri = "fizzbuzz";
+        numeri = "fizzBuzz";
 
     } else if (i % 5 === 0) {
         numeri = "buzz";
