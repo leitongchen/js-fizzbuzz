@@ -11,20 +11,20 @@ for (var i = 1; i <= 100; i++) {
 
     var numeri = i;
 
-
+    //determinare se i num sono fizz, buzz, o fizzbuzz
     if (i % 3 === 0 && i % 5 === 0) {
-        numeri = "fizzBuzz";
+        numeri = "FizzBuzz";
 
     } else if (i % 5 === 0) {
-        numeri = "buzz";
+        numeri = "Buzz";
 
     } else if (i % 3 === 0) {
-        numeri = "fizz";
+        numeri = "Fizz";
 
     }
 
-    allNumbers.push(numeri);
     //i valori ottenuti vengono pushati nell'array allNumbers
+    allNumbers.push(numeri);
 
 }
 
